@@ -6,8 +6,8 @@ from sklearn.tree import DecisionTreeClassifier, plot_tree
 from sklearn.metrics import accuracy_score
 from scipy.stats import entropy
 
-visualize_tree = False
-replace_feature_index_with_feature_name = False
+visualize_tree = True
+replace_feature_index_with_feature_name = True
 calculate_information_gain = True
 
 def load_data(fake_file='clean_fake.txt', real_file='clean_real.txt'):
